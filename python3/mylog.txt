@@ -1,0 +1,18 @@
+INFO:root:A New request Came: 
+INFO:root:request processing completed
+INFO:root:A New request Came: 
+INFO:root:request processing completed
+INFO:root:A New request Came: 
+INFO:root:request processing completed
+INFO:root:A New request Came: 
+ERROR:root:invalid literal for int() with base 10: 'zero'
+Traceback (most recent call last):
+  File "/Users/rishabh/Documents/patterns/logfile.py", line 6, in <module>
+    y=int(input("enter second number: "))
+ValueError: invalid literal for int() with base 10: 'zero'
+INFO:root:request processing completed
+DEBUG:root:this is debug message
+WARNING:root:this is warning message
+INFO:root:this is info message
+ERROR:root:this is error message
+CRITICAL:root:this is critical message
